@@ -33,17 +33,20 @@ function App() {
               <input type = "checkbox"/>
               <h3>{product.productName}</h3>
               <p>{product.price}</p>
-
             </div>
-          )
-         
+                 ) 
         })}
         </div>
-        
+      </section>
 
+      <section className="footer-section">
+      <div className="footer-container">
+        <h4 htmlFor="footer">Scandiweb Test Assignment</h4>
+        </div>
       </section>
     </div>
   );
 }
 
 export default App;
+

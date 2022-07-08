@@ -43,12 +43,26 @@
 /** ===== Product section====*/
 
 .products-container{
+  flex-wrap: wrap;
   display: flex;
-
+  height: fit-content;
 }
-.product-item{
-  width: 100%;
-  height: 200px;
-  border: 2px black solid;}
 
+.product-item{
+  width: 20%;
+  height: 20vh;
+  margin: 7px;
+  border: 2px black solid;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
   
+}
+
+.input[checkbox]{
+  align-items: left;
+  margin-left: 8px;
+}
+
+.footer-container {
+  margin: 250px;
+}
